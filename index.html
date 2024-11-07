@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulir Pendaftaran</h2>
+    <form id="registrationForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <small id="usernameFeedback" class="feedback"></small>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <small id="emailFeedback" class="feedback"></small>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <small id="passwordFeedback" class="feedback"></small>
+
+      <label for="confirmPassword">Konfirmasi Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <small id="confirmPasswordFeedback" class="feedback"></small>
+
+      <button type="submit">Daftar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
